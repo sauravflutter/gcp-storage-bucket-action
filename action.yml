@@ -17,12 +17,12 @@ inputs:
   project:
     description: 'Name of the project that contains the storage bucket.'
     required: true
-  home_page_path:
-    description: 'Path of your homepage in cloud storage bucket.'
-    required: true
-  error_page_path:
-    description: 'Path of the 404 page to be shown'
-    required: true
+  # home_page_path:
+  #   description: 'Path of your homepage in cloud storage bucket.'
+  #   required: true
+  # error_page_path:
+  #   description: 'Path of the 404 page to be shown'
+  #   required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
